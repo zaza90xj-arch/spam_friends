@@ -1,13 +1,13 @@
 {
   "functions": {
-    "main.php": {
-      "runtime": "php@8.2"
+    "main.py": {
+      "runtime": "python@3.9"
     }
   },
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/main.php"
+      "dest": "/main.py"
     }
   ]
 }
